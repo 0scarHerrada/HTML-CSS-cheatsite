@@ -1,49 +1,48 @@
 
 
-*{
+* {
     box-sizing: border-box;
 }
 
 
-body{
+body {
     background-color: aliceblue;
 }
 
 
 header {
-    background-image: linear-gradient(to bottom right, blue, purple);
     border-radius: 8px;
     height: 100px;
+    margin-bottom: 5%;
 }
 
 
 h1 {
     font-weight: 100;
     font-family: "Ubuntu";
-    font-size: 45px;
+    font-size: 70px;
     text-align: center;
     padding-top: 20px;
-    color: white;
+    color: black;
 }
 
 
 h2 {
-    font-size: 30px;
+    font-family: 'Oswald';
+    font-size: 50px;
 }
 
 
 h5 {
-    font-size: 18px;
-}
-
-
-h2, h5 {
-    font-family: 'Oswald';
-}
-
-
-p, td {
+    font-size: 20px;
     font-family: 'Quicksand';
+    font-weight: 400;
+}
+
+
+p {
+    font-family: 'Oswald';
+    font-size: larger;
 }
 
 
@@ -53,14 +52,39 @@ section {
 }
 
 
+span h3 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0% 9% 4% 16%;
+    position: relative;
+    bottom: 5%;
+    font-family: 'Quicksand';
+    position: relative;
+}
+
+
 table {
     border: darkgrey solid 2px;
     display: table;
 }
 
 
+tbody {
+    background-color: aliceblue;
+}
+
+
+td {
+    padding: 4px;
+    font-family: 'Quicksand';
+    font-size: 14px;
+    text-align: center;
+    border: purple solid 1px;
+}
+
+
 thead {
-    background-color: darkgray;
+    background-color: rebeccapurple;
 }
 
 
@@ -72,25 +96,21 @@ th {
 }
 
 
-td {
-    padding: 4px;
-    font-family: 'Quicksand';
-    font-size: 14px;
-    text-align: center;
-    border: black solid 1px;
-}
-
-
 .describer {
-    border: blue dashed 3px;
+    left: 2%;
+    position: relative;
+    border: blue solid 3px;
     margin: 10% 0% 10% 10%;
     padding: 25px;
     width: 30%;
+    background-color: lightskyblue;
 }
 
 
 .table {
-    margin: 5% 10% 5% 0%;
-    padding: 4%;
-    border: purple dashed 4px;
+    margin: 5% 10% 5% 0;
+    padding: 8% 4% 4% 4%;
+    border: purple solid 4px;
+    background-color: lavender;
+    position: inherit;
 }
