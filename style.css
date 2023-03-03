@@ -1,0 +1,96 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: aliceblue;
+}
+
+
+header {
+    background-image: linear-gradient(to bottom right, blue, purple);
+    border-radius: 8px;
+    height: 100px;
+}
+
+
+h1 {
+    font-weight: 100;
+    font-family: "Ubuntu";
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+
+h2 {
+    font-size: 30px;
+}
+
+
+h5 {
+    font-size: 18px;
+}
+
+
+h2, h5 {
+    font-family: 'Oswald';
+}
+
+
+p, td {
+    font-family: 'Quicksand';
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+
+table {
+    border: darkgrey solid 2px;
+    display: table;
+}
+
+
+thead {
+    background-color: darkgray;
+}
+
+
+th {
+    color: white;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+td {
+    padding: 4px;
+    font-family: 'Quicksand';
+    font-size: 14px;
+    text-align: center;
+    border: black solid 1px;
+}
+
+
+.describer {
+    border: blue dashed 3px;
+    margin: 10% 0% 10% 10%;
+    padding: 25px;
+    width: 30%;
+}
+
+
+.table {
+    margin: 5% 10% 5% 0%;
+    padding: 4%;
+    border: purple dashed 4px;
+}
